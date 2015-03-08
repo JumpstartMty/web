@@ -5,6 +5,7 @@ var express     = require('express'),
     handlebars  = require('./handlebars'),
     middleware  = require('./middleware'),
     config      = require('./config'),
+    passport    = require('./passport');
     mongoose    = require('./mongoose');
 
 module.exports = function(app) {
@@ -43,6 +44,10 @@ module.exports = function(app) {
 
   // run the mongoose configuration from 'mongoose.js'
   mongoose(app);
+
+  // passport initialize and sessions
+  app.use(passport.initialize());
+  app.use(passport.session());
 
 
 

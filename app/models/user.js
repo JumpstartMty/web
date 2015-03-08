@@ -2,26 +2,20 @@ var mongoose = require('mongoose');
 
 var userSchema = mongoose.Schema({
 
-  username: {
-    type: String,
-    required: true
-  },
+  username: String,
+  name: String,
+  email: String,
 
-  email: {
-    type: String,
-    required: true
-  },
+  github_avatar: String,
+  github_id: Number,
+  github_hireable: Boolean,
+  github_location: String,
 
   registration_date: {
     type: Date,
     required: true,
     default: Date.now
-  }
-
-  github_token: {
-    type: String,
-    required: true
-  }
+  },
 
 });
 
