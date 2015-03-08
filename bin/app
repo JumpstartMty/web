@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+// create express application
+var app = require('express')();
+
+
+// load initialization function
+var init = require('../configs/init');
+
+
+// initialize app
+init(app);

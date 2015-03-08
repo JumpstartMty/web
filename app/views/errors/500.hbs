@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>500 - Server Error</title>
+</head>
+<body>
+
+<h2>Application Error</h2>
+<hr>
+{{#if showError}}
+<b>{{error}}</b>
+<pre>
+  {{error.stack}}
+</pre>
+<hr>
+{{date}}
+{{/if}}
+
+
+</body>
+</html>
