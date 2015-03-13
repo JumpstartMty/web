@@ -1,0 +1,45 @@
+$buttonColor: #2ecc71;
+$buttonDark: darken($buttonColor, 7%);
+$li-font:0.9em;
+
+a{
+	text-decoration:none;
+	font-family:Helvetica;
+}
+
+nav ul{
+  display: table;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+nav ul li{
+	display: table-cell;
+	width: auto;
+	text-align: center;
+	list-style: none;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:$li-font;
+	&:last-child a{
+		background: $buttonColor;
+		border-radius: 3px;
+		border: 0;
+		color: white;
+		outline: 0;
+	}
+	&:last-child a:hover {
+	  background: $buttonDark;
+	}
+}
+
+nav ul li a{
+	color:#575757;
+	padding:15px 20px;
+}
+
+img{
+	display:block;
+	width:300px;
+	padding-top: 5px;
+}

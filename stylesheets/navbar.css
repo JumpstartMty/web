@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  font-family: Helvetica; }
+
+nav ul {
+  display: table;
+  margin-left: auto;
+  margin-right: 0; }
+
+nav ul li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 0.9em; }
+  nav ul li:last-child a {
+    background: #2ecc71;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    outline: 0; }
+  nav ul li:last-child a:hover {
+    background: #27af61; }
+
+nav ul li a {
+  color: #575757;
+  padding: 15px 20px; }
+
+img {
+  display: block;
+  width: 300px;
+  padding-top: 5px; }
+
+/*# sourceMappingURL=navbar.css.map */
