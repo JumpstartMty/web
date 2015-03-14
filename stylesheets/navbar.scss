@@ -1,4 +1,4 @@
-$buttonColor: #2ecc71;
+$buttonColor: #F3F3F3;
 $buttonDark: darken($buttonColor, 7%);
 $li-font:0.9em;
 
@@ -25,7 +25,7 @@ nav ul li{
 		background: $buttonColor;
 		border-radius: 3px;
 		border: 0;
-		color: white;
+		color: rgb(87, 87, 87);
 		outline: 0;
 	}
 	&:last-child a:hover {
@@ -34,8 +34,9 @@ nav ul li{
 }
 
 nav ul li a{
-	color:#575757;
+	color:#F3F3F3;
 	padding:15px 20px;
+	text-transform:uppercase;
 }
 
 img{
