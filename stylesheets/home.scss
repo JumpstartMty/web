@@ -1,0 +1,93 @@
+header{
+  margin-top:10px; 
+}
+
+.intro{
+  width: 100%;
+  height: auto;
+  margin: 13% auto;
+}
+
+.intro a{
+  /*border:solid 3px rgba(38,166,91,0.5);*/
+  padding: 15px 25px 15px 25px;
+  background-color: #26A65B;
+  color: #F7F7F7;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  transition:0.2s ease-in-out;
+}
+
+.intro a:hover{
+  background-color: #1f914d;
+  color: #F7F7F7;
+  /*border-color: #26A65B;*/
+}
+
+.intro i{
+  padding-left: 5px;
+
+}
+
+.intro p{
+color: #FFF;
+font-size: 16px;
+font-family: Helvetica;
+width: 60%;
+margin: 40px auto;
+}
+
+#principal-container .content {
+  /*White background on menu and header
+  background:rgba(237, 237, 237, 0.5);*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.content h1{
+  text-align: center;
+  font-size: 36px;
+  font-family: Helvetica;
+  line-height: 45px;
+  color: #FFF;
+}
+
+
+#video-bg {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+  }
+  #video-bg > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* 1. No object-fit support: */
+  @media (min-aspect-ratio: 16/9) {
+    #video-bg > video { height: 300%; top: -100%; }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    #video-bg > video { width: 300%; left: -100%; }
+  }
+  /* 2. If supporting object-fit, overriding (1): */
+  @supports (object-fit: cover) {
+    #video-bg > video {
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+  }

@@ -19,7 +19,7 @@ nav ul li{
 	text-align: center;
 	list-style: none;
 	padding-top:15px;
-	padding-bottom:15px;
+	padding-bottom:13px;
 	font-size:$li-font;
 	&:last-child a{
 		background: $buttonColor;
@@ -37,6 +37,12 @@ nav ul li a{
 	color:#F3F3F3;
 	padding:15px 20px;
 	text-transform:uppercase;
+}
+
+nav ul li i{
+	font-size:1.7em;
+	vertical-align:middle;
+	margin-right:5px;
 }
 
 img{
