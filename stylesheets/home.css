@@ -23,24 +23,13 @@ header {
   margin-right: auto;
   width: auto;
   transition: 0.2s ease-in-out; }
-
-.intro a:hover {
-  background-color: #DADADA;
-  /*border-color: #26A65B;*/ }
+  .intro a:hover {
+    background-color: #DADADA; }
 
 .intro i {
   padding-left: 5px; }
 
-.intro p {
-  color: #FFF;
-  font-size: 16px;
-  font-family: Helvetica;
-  width: 60%;
-  margin: 40px auto; }
-
 #principal-container .content {
-  /*White background on menu and header
-  background:rgba(237, 237, 237, 0.5);*/
   position: absolute;
   top: 0;
   left: 0;
@@ -55,21 +44,31 @@ header {
   line-height: 45px;
   color: #FFF; }
 
-#video-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden; }
+.info {
+  color: #575757;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
-#video-bg > video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+.info h2 {
+  margin-top: 5px; }
 
+.info i {
+  color: #25A359;
+  font-size: 5em; }
+
+/*#video-bg {
+    height: 100%;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+  }
+  #video-bg > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }*/
 /* 1. No object-fit support: */
 @media (min-aspect-ratio: 16 / 9) {
   #video-bg > video {

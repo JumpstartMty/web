@@ -33,6 +33,10 @@ $screen-lg:1170px;
   padding-right: 10px;
 }
 
+.offset{
+  height: 10px;
+}
+
 /** grid breakpoints */
 @media (min-width: $screen-sm) {
   .container {
