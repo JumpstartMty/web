@@ -5,6 +5,10 @@ header img{
 	padding-top: 5px;
 }
 
+.text-center{
+	text-align:center;
+}
+
 .main{
 width: 100%;
 height: auto;
@@ -17,7 +21,7 @@ background-position: center;
 
 .intro{
   padding-top:40px;
-  padding-bottom:80px;
+  padding-bottom:60px;
 }
 
 .main h1{
@@ -26,25 +30,6 @@ background-position: center;
   font-size: 52px;
 }
 
-#about-info{
-	padding-top:70px;
-	padding-bottom:70px;
-}
+#item h2{
 
-#about-info img{
-	border-radius:50%;
-	width:100%;
-}
-
-#about-info h3{
-	margin-top:0px;
-}
-
-#about-info h4{
-	text-align:center;
-	margin-top:5px;
-}
-
-.about-desc{
-	padding-left:30px;
 }
