@@ -1,0 +1,42 @@
+header img {
+  display: block;
+  width: 300px;
+  padding-top: 5px; }
+
+.main {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-image: url(../img/hackers.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.intro {
+  padding-top: 40px;
+  padding-bottom: 80px; }
+
+.main h1 {
+  color: #FFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 52px; }
+
+#about-info {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+#about-info img {
+  border-radius: 50%;
+  width: 100%; }
+
+#about-info h3 {
+  margin-top: 0px; }
+
+#about-info h4 {
+  text-align: center;
+  margin-top: 5px; }
+
+.about-desc {
+  padding-left: 30px; }
+
+/*# sourceMappingURL=style.css.map */
