@@ -124,7 +124,13 @@ header{
   border-radius:2px;
   color:#666666;
   padding:0px;
-  padding-bottom:10px;
+  cursor: pointer;
+  &:hover{
+    border:solid 1px #AEAEAE;
+  }
+  &:hover h3{
+    color: $main-green;
+  }
 }
 
 .each-project img{
@@ -183,13 +189,14 @@ header{
 
 
 .each-project-inner{
-  padding-left:10px;
-  padding-right:10px;
+  /*padding-left:10px;
+  padding-right:10px;*/
 }
 
 .each-project-inner h3{
   color: #4A4A4A;
-  margin-bottom: 0px;
+  margin: 0px;
+  padding:5px 10px 0px 10px;
   &:hover{
     color: $main-green;
     cursor: pointer;
@@ -197,7 +204,9 @@ header{
 }
 
 .each-project-inner h4{
-  margin-top:4px; 
+  color:#666;
+  margin:0;
+  padding:2px 10px 8px 10px;
   font-weight: 100;
 }
 

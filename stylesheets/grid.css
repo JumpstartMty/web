@@ -74,8 +74,8 @@
 @media (min-width: 970px) {
   .container {
     max-width: 970px; } }
-@media (min-width: 1170px) {
+@media (min-width: 1024px) {
   .container {
-    max-width: 1170px; } }
+    max-width: 1024px; } }
 
 /*# sourceMappingURL=grid.css.map */
