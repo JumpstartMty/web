@@ -67,9 +67,30 @@ header {
 
 #showcase {
   background-color: #FFF;
+  border-bottom: solid 1px #D9D9DE;
   color: #575757;
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 65px;
+  padding-bottom: 65px; }
+
+.showcase-header {
+  margin-bottom: 30px; }
+
+#showcase h2 {
+  display: table;
+  margin-top: 0px; }
+
+#see-all {
+  border: solid 2px #888;
+  border-radius: 4px;
+  color: #888;
+  float: right;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: inline-block; }
+  #see-all:hover {
+    border-color: #4A4A4A;
+    color: #4A4A4A; }
 
 #showcase .col.four {
   padding-left: 20px;
@@ -116,30 +137,63 @@ header {
   border: solid 1px #25A359;
   color: #25A359;
   padding-right: 5px; }
+  .details-btn:hover {
+    border-color: #1c7942;
+    color: #1c7942; }
 
 .demo-btn {
   background-color: #25A359;
   color: #FFF;
   padding-left: 5px; }
+  .demo-btn:hover {
+    background-color: #1c7942; }
 
 .each-project-inner {
   padding-left: 10px;
   padding-right: 10px; }
 
+.each-project-inner h3 {
+  color: #4A4A4A;
+  margin-bottom: 0px; }
+  .each-project-inner h3:hover {
+    color: #25A359;
+    cursor: pointer; }
+
+.each-project-inner h4 {
+  margin-top: 4px;
+  font-weight: 100; }
+
 .each-project-inner p {
-  line-height: 22px; }
+  line-height: 22px;
+  margin-bottom: 24px; }
 
-.partners-header {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px; }
+#partners {
+  background-color: #F7FAFA;
+  padding-top: 60px;
+  padding-bottom: 70px; }
 
-.partners-header i {
+.partners-content {
+  text-align: center; }
+
+.partners-content i {
   color: #C0392B;
   font-size: 3.5em; }
 
-.partners-header h2 {
-  margin-top: 5px; }
+.partners-content h2 {
+  margin-top: 5px;
+  margin-bottom: 60px; }
+
+.partners-content img {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+footer {
+  background-color: #0c3d1f;
+  color: #FFF;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 /*#video-bg {
     height: 100%;

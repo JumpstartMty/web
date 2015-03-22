@@ -1,3 +1,7 @@
+$main-green:#25A359;
+$darker-main-green:darken($main-green, 10%);
+
+
 header{
   margin-top:10px; 
 }
@@ -70,7 +74,7 @@ header{
 }
 
 .info i{
-  color: #25A359;
+  color: $main-green;
   font-size: 5em;
 }
 
@@ -80,9 +84,34 @@ header{
 
 #showcase{
   background-color:#FFF;
+  border-bottom:solid 1px #D9D9DE;
   color: #575757;
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:65px;
+  padding-bottom:65px;
+}
+
+.showcase-header{
+  margin-bottom: 30px;
+}
+
+#showcase h2{
+  display: table;
+  margin-top: 0px;
+}
+
+#see-all{
+  border:solid 2px #888;
+  border-radius:4px;
+  color:#888;
+  float: right;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding:10px 15px;
+  display: inline-block;
+  &:hover{
+    border-color: #4A4A4A;
+    color: #4A4A4A;
+  }
 }
 
 #showcase .col.four{
@@ -135,17 +164,23 @@ header{
 }
 
 .details-btn{
-  border:solid 1px #25A359;
-  color:#25A359;
+  border:solid 1px $main-green;
+  color:$main-green;
   padding-right:5px;
+  &:hover{
+    border-color:$darker-main-green;
+    color:$darker-main-green;
+  }
 }
 
 .demo-btn{
-  background-color: #25A359;
+  background-color: $main-green;
   color:#FFF;
   padding-left:5px;
+  &:hover{
+    background-color:$darker-main-green;
+  }
 }
-
 
 
 .each-project-inner{
@@ -153,25 +188,59 @@ header{
   padding-right:10px;
 }
 
+.each-project-inner h3{
+  color: #4A4A4A;
+  margin-bottom: 0px;
+  &:hover{
+    color: $main-green;
+    cursor: pointer;
+  }
+}
+
+.each-project-inner h4{
+  margin-top:4px; 
+  font-weight: 100;
+}
+
 .each-project-inner p{
   line-height: 22px;
+  margin-bottom: 24px;
 }
 
-.partners-header{
+#partners{
+  background-color:#F7FAFA;
+  padding-top:60px;
+  padding-bottom:70px;
+}
+
+.partners-content{
   text-align: center;
-  padding-top:40px;
-  padding-bottom:40px;
 }
 
-.partners-header i{
+.partners-content i{
   color:#C0392B;
   font-size: 3.5em;
 }
 
-.partners-header h2{
+.partners-content h2{
   margin-top: 5px; 
+  margin-bottom: 60px;
 }
 
+.partners-content img{
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); 
+}
+
+
+footer{
+  background-color:#0c3d1f;
+  color: #FFF;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
 
 /*#video-bg {
     height: 100%;
