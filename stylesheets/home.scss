@@ -52,11 +52,17 @@ header{
   color: #FFF;
 }
 
+#info-wrap{
+  background-color:#F7FAFA;
+  border-bottom:solid 1px #D9D9DE;
+  margin-top:-4px;
+}
+
 .info{
   color: #575757;
   text-align: center;
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .info h2{
@@ -67,6 +73,105 @@ header{
   color: #25A359;
   font-size: 5em;
 }
+
+.info p{
+  line-height: 24px;
+}
+
+#showcase{
+  background-color:#FFF;
+  color: #575757;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+#showcase .col.four{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.each-project{
+  background-color:#FFF;
+  border:solid 1px #D9D9DE;
+  border-radius:2px;
+  color:#666666;
+  padding:0px;
+  padding-bottom:10px;
+}
+
+.each-project img{
+  border-radius: 2px 2px 0px 0px; 
+  width: 100%;
+}
+
+.each-project i{
+  font-size: 1.2em;
+  padding-right:5px;
+}
+
+.details, .demo{
+  padding-left:0px;
+  padding-right:0px;
+  font-size: 0.9em;
+}
+
+.details{
+  padding-right:5px;
+}
+
+.demo{
+  padding-left:5px;
+}
+
+.details-btn, .demo-btn {
+  display: block;    
+  padding:6px 0px;
+  border-radius:2px;
+  color:#FFF;
+  display: block;
+  padding:8px 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.details-btn{
+  border:solid 1px #25A359;
+  color:#25A359;
+  padding-right:5px;
+}
+
+.demo-btn{
+  background-color: #25A359;
+  color:#FFF;
+  padding-left:5px;
+}
+
+
+
+.each-project-inner{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.each-project-inner p{
+  line-height: 22px;
+}
+
+.partners-header{
+  text-align: center;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.partners-header i{
+  color:#C0392B;
+  font-size: 3.5em;
+}
+
+.partners-header h2{
+  margin-top: 5px; 
+}
+
 
 /*#video-bg {
     height: 100%;
