@@ -28,6 +28,8 @@ header img {
   font-size: 3em; }
 
 .main h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
   color: #2ecd70; }
 
 .main h3 {
