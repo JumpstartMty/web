@@ -20,7 +20,7 @@ header img{
 width: 100%;
 height: auto;
 background-repeat:no-repeat;
-/*background-image: url(../img/hackers.png);*/
+background-image:url(../img/back.gif);
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
@@ -37,14 +37,15 @@ background-position: center;
   font-size: 3em;
 }
 
+.main h2{
+	color:$light-main-green;
+}
+
 .main h3{
 	color:#FFF;
 }
 
-#item{
-	padding-top:50px;
-	padding-bottom:60px;
-}
+
 
 #item h2{
 	color:$light-main-green;
