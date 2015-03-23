@@ -1,3 +1,10 @@
+$main-green:#25A359;
+$light-main-green:lighten($main-green, 10%);
+$darker-main-green:darken($main-green, 10%);
+
+body{
+	background-color:#1C1C1C;
+}
 
 header img{
  	display:block;
@@ -13,7 +20,7 @@ header img{
 width: 100%;
 height: auto;
 background-repeat:no-repeat;
-background-image: url(../img/hackers.png);
+/*background-image: url(../img/hackers.png);*/
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
@@ -21,15 +28,27 @@ background-position: center;
 
 .intro{
   padding-top:40px;
-  padding-bottom:60px;
+  padding-bottom:40px;
 }
 
 .main h1{
-  color: #FFF;
+  color: $light-main-green;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 52px;
+  font-size: 3em;
+}
+
+.main h3{
+	color:#FFF;
+}
+
+#item{
+	padding-top:50px;
+	padding-bottom:60px;
 }
 
 #item h2{
-
+	color:$light-main-green;
+	font-family: 'Muli', sans-serif;
+	text-transform:uppercase;
+	margin-bottom:60px;
 }

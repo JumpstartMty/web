@@ -29,9 +29,14 @@ nav ul li {
     color: #575757; }
 
 nav ul li a {
+  border-bottom: solid 2px transparent;
   color: #F3F3F3;
   padding: 15px 14px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  nav ul li a:hover {
+    border-bottom: solid 2px #EAEAEA;
+    transition: border 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
 nav ul li i {
   font-size: 1.7em;

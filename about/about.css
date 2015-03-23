@@ -1,3 +1,6 @@
+body {
+  background-color: #1C1C1C; }
+
 header img {
   display: block;
   width: 300px;
@@ -10,18 +13,31 @@ header img {
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
-  background-image: url(../img/hackers.png);
+  /*background-image: url(../img/hackers.png);*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center; }
 
 .intro {
   padding-top: 40px;
-  padding-bottom: 60px; }
+  padding-bottom: 40px; }
 
 .main h1 {
-  color: #FFF;
+  color: #2ecd70;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 52px; }
+  font-size: 3em; }
+
+.main h3 {
+  color: #FFF; }
+
+#item {
+  padding-top: 50px;
+  padding-bottom: 60px; }
+
+#item h2 {
+  color: #2ecd70;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 60px; }
 
 /*# sourceMappingURL=about.css.map */

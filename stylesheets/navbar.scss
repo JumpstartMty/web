@@ -38,9 +38,15 @@ nav ul li{
 }
 
 nav ul li a{
+	border-bottom:solid 2px transparent;
 	color:$buttonColor;
 	padding:15px 14px;
 	text-transform:uppercase;
+	transition:color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	&:hover{
+		border-bottom:solid 2px #EAEAEA;
+		transition: border 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	} 
 }
 
 nav ul li i{
