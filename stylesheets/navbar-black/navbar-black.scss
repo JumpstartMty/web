@@ -1,4 +1,5 @@
 $buttonColor: #F3F3F3;
+$darker-buttonColor:darken($buttonColor, 3%);
 $li-font:0.9em;
 
 header{
@@ -25,26 +26,26 @@ nav ul li{
 	padding-bottom:13px;
 	font-size:$li-font;
 	&:last-child a{
-		border: solid 1px $buttonColor;
+		background: $buttonColor;
+	    color: #575757;
 		border-radius: 3px;
-		color: $buttonColor;
 		margin-left: 12px;
 		outline: 0;
 	}
 	&:last-child a:hover {
-	  background: $buttonColor;
-	  color: #575757;
+	  background-color:$darker-buttonColor;
+	  border-bottom:solid 2px transparent;
 	}
 }
 
 nav ul li a{
 	border-bottom:solid 2px transparent;
-	color:$buttonColor;
+	color: #575757;
 	padding:15px 14px;
 	text-transform:uppercase;
 	transition:color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 	&:hover{
-		border-bottom:solid 2px #EAEAEA;
+		border-bottom:solid 2px #575757;
 		transition: border 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	} 
 }
@@ -62,5 +63,6 @@ nav ul li i{
 }
 
 header img{
+	padding-top:12px;
 	width:300px;
 }
