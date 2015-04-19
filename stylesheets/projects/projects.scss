@@ -1,3 +1,7 @@
+$main-green:#25A359;
+$darker-main-green:darken($main-green, 10%);
+
+
 #search-wrap h1{
 	display:inline-table;
 }
@@ -5,4 +9,64 @@
 #search-wrap input{
 	line-height:2em;
 	width:100%;
+}
+
+#showcase .col.four{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.each-project{
+  background-color:#FFF;
+  border:solid 1px #D9D9DE;
+  border-radius:2px;
+  color:#666666;
+  padding:0px;
+  cursor: pointer;
+  margin-bottom:20px;
+  &:hover{
+    border:solid 1px #AEAEAE;
+  }
+  &:hover h3{
+    color: $main-green;
+  }
+}
+
+.each-project img{
+  border-radius: 2px 2px 0px 0px; 
+  width: 100%;
+}
+
+.each-project i{
+  font-size: 1.2em;
+  padding-right:5px;
+}
+
+
+
+.each-project-inner{
+  /*padding-left:10px;
+  padding-right:10px;*/
+}
+
+.each-project-inner h3{
+  color: #4A4A4A;
+  margin: 0px;
+  padding:5px 10px 0px 10px;
+  &:hover{
+    color: $main-green;
+    cursor: pointer;
+  }
+}
+
+.each-project-inner h4{
+  color:#666;
+  margin:0;
+  padding:2px 10px 8px 10px;
+  font-weight: 100;
+}
+
+.each-project-inner p{
+  line-height: 22px;
+  margin-bottom: 24px;
 }
