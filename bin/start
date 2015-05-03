@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+// load environment variables
+require('dotenv').load();
+
+// load babel transpiler
+require('babel/register');
+
+// initialize the application
+require('../core/init');
