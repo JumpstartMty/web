@@ -1,0 +1,142 @@
+/** Every element includes borders and padding as part of the width */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 100%; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.row {
+  *zoom: 1; }
+
+.col {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.offset {
+  height: 10px; }
+
+/** grid breakpoints */
+@media (min-width: 750px) {
+  .container {
+    max-width: 750px; }
+
+  .col {
+    float: left; }
+
+  .col.one {
+    width: 8.33%; }
+
+  .col.two {
+    width: 16.66%; }
+
+  .col.three {
+    width: 25%; }
+
+  .col.four {
+    width: 33.33%; }
+
+  .col.five {
+    width: 41.65%; }
+
+  .col.six {
+    width: 50.00%; }
+
+  .col.seven {
+    width: 58.33%; }
+
+  .col.eight {
+    width: 66.66%; }
+
+  .col.nine {
+    width: 74.99%; }
+
+  .col.ten {
+    width: 83.32%; }
+
+  .col.eleven {
+    width: 91.65%; }
+
+  .col.twelve {
+    width: 100%; }
+
+  .col.flow-opposite {
+    float: right; } }
+@media (min-width: 970px) {
+  .container {
+    max-width: 970px; } }
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px; } }
+@font-face {
+  font-family: js-Lato;
+  src: url(../fonts/lato/Lato-Regular.ttf); }
+a {
+  text-decoration: none;
+  font-family: Helvetica; }
+
+nav ul {
+  display: table;
+  margin-left: auto;
+  margin-right: 0; }
+
+nav ul li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  font-size: 0.8em; }
+  nav ul li:last-child a {
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.75);
+    border-radius: 3px;
+    color: #FFF;
+    margin-left: 12px;
+    outline: 0; }
+  nav ul li:last-child a:hover {
+    background: #FFF;
+    color: #575757; }
+
+nav ul li a {
+  border-radius: 5px;
+  color: #FFF;
+  padding: 10px 12px 10px 12px;
+  font-family: js-Lato;
+  font-weight: 700;
+  margin-left: 9px;
+  font-size: 1.1em;
+  letter-spacing: 0.2px;
+  opacity: 0.8; }
+  nav ul li a:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05); }
+
+nav ul li i {
+  font-size: 1.7em;
+  vertical-align: sub;
+  margin-right: 5px; }
+
+.content img {
+  display: block;
+  width: 100%;
+  padding-top: 15px; }
+
+header img {
+  width: 300px; }
+
+/*# sourceMappingURL=styles.css.map */

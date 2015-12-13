@@ -5,6 +5,11 @@
   box-sizing:border-box;
 }
 
+html, body {
+        height: 100%;
+        margin: 0px;
+    }
+
 $screen-sm:750px;
 $screen-md:970px;
 $screen-lg:1024px;
